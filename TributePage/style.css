@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Gabarito&family=Roboto&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(951766-213047940.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  font-family: "Gabarito", sans-serif;
+}
+.container {
+  margin: 0 5%;
+  background-color: rgba(204, 112, 26, 0.5);
+}
+header h1 {
+  text-align: center;
+  margin-top: 0;
+  padding-top: 50px;
+  font-size: 50px;
+}
+header p {
+  text-align: center;
+  font-size: large;
+  font-weight: 400;
+  font-size: 30px;
+}
+figure {
+  display: block;
+  text-align: center;
+}
+figure .img {
+  max-width: 100%;
+  height: auto;
+}
+figure .img-caption {
+  font-size: 20px;
+  font-weight: 300;
+}
+.list-group {
+  line-height: 30px;
+  padding: 20px 30%;
+  font-size: 20px;
+  font-weight: 100;
+}
+.list-group .list-item-year {
+  color: darkred;
+  font-weight: 400;
+}
+.quotation {
+  padding: 0 20% 20px;
+  text-align: center;
+  font-size: 17px;
+}
+footer .tribute-info-link {
+  font-size: 20px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 30px;
+}
+footer .tribute-info-link a {
+  color: purple;
+}
+/* *RESPONSİVE */
+@media (max-width: 768px) {
+  header h1 {
+    font-size: 30px;
+  }
+  header p {
+    font-size: 20px;
+  }
+  .list-group {
+    line-height: 25px;
+    padding: 20px 15%;
+    font-size: 18px;
+    font-weight: 100;
+  }
+}
+
+/* *RESPONSİVE */
